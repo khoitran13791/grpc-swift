@@ -40,7 +40,7 @@ let argumentParserMinimumVersion: Version = "1.0.0"
 let packageDependencies: [Package.Dependency] = [
   .package(
     url: "https://github.com/apple/swift-nio.git",
-    exact: "2.33.0"
+    exactItem: "2.33.0"
   ),
   .package(
     url: "https://github.com/apple/swift-nio-http2.git",
